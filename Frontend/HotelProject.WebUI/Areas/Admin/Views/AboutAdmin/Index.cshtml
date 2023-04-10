@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ResultAboutDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Başlık1</th>
+            <th scope="col">Başlık2</th>
+            <th scope="col">Güncelle</th>
+   
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title1</td>
+                <td>@item.Title2</td>
+                <td><a href="/Admin/AboutAdmin/UpdateAbout/@item.AboutId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+

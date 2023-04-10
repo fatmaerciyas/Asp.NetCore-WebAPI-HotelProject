@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "HotelProject.BusinessLayer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64527;http://localhost:64531"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+     Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+@await Component.InvokeAsync("_HeadViewComponent")
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+@*        @await Component.InvokeAsync("_SpinnerViewComponent")
+*@
+        <!-- Spinner End -->
+        <!-- Header Start -->
+        @await Component.InvokeAsync("_NavbarViewComponent")
+        <!-- Header End -->
+        <!-- Carousel Start -->
+        @await Component.InvokeAsync("_SliderViewComponent")
+
+        <!-- Carousel End -->
+        <!-- Booking Start -->
+
+        <!-- Booking End -->
+        <!-- About Start -->
+        @await Component.InvokeAsync("_AboutUsViewComponent")
+        <!-- About End -->
+        <!-- Room Start -->
+        @await Component.InvokeAsync("_OurRoomsViewComponent")
+        <!-- Room End -->
+      
+        <!-- Service Start -->
+        @await Component.InvokeAsync("_ServiceViewComponent")
+
+        <!-- Service End -->
+        <!-- Testimonial Start -->
+        @await Component.InvokeAsync("_TestimonialViewComponent")
+
+        <!-- Testimonial End -->
+        <!-- Team Start -->
+        @await Component.InvokeAsync("_TeamViewComponent")
+
+        <!-- Team End -->
+        <!-- Newsletter Start -->
+        @await Html.PartialAsync("_SubscribePartial.cshtml")
+
+        <!-- Newsletter Start -->
+        <!-- Footer Start -->
+        @await Component.InvokeAsync("_FooterViewComponent")
+
+        <!-- Footer End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/hotel-html-template/lib/wow/wow.min.js"></script>
+    <script src="~/hotel-html-template/lib/easing/easing.min.js"></script>
+    <script src="~/hotel-html-template/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/hotel-html-template/lib/counterup/counterup.min.js"></script>
+    <script src="~/hotel-html-template/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/hotel-html-template/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/hotel-html-template/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/hotel-html-template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Template~/hotel-html-template/ Javascript -->
+    <script src="~/hotel-html-template/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<ResultRoomDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Oda Numarası</th>
+            <th scope="col">Görsel</th>
+            <th scope="col">Fiyat</th>
+            <th scope="col">Oda Sayısı</th>
+            <th scope="col">Banyo Sayısı</th>
+            <th scope="col">Sil</th>
+            <th scope="col">Güncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RoomNumber</td>
+                <td>@item.RoomCoverImage</td>
+                <td>@item.Price</td>
+                <td>@item.BedCount</td>
+                <td>@item.BathCount</td>
+                <td><a href="/Admin/RoomAdmin/Delete/@item.RoomId" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+                <td><a href="/Admin/RoomAdmin/Update/@item.RoomId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+<a href="/Admin/RoomAdmin/Add/" class="btn btn-info">Yeni Personel Girişi</a>

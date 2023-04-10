@@ -1,0 +1,17 @@
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.DataAccessLayer.deps.json
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.DataAccessLayer.runtimeconfig.json
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.DataAccessLayer.dll
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.DataAccessLayer.pdb
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.EntityLayer.dll
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.EntityLayer.pdb
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.AssemblyInfo.cs
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.csproj.CopyComplete
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.dll
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\refint\HotelProject.DataAccessLayer.dll
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.pdb
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.genruntimeconfig.cache
+C:\Users\fatma\Desktop\HotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net6.0\ref\HotelProject.DataAccessLayer.dll

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TestimonialViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<h2>Personeller</h2>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Ad</th>
+            <th scope="col">Başlık</th>
+            <th scope="col">Açıklama</th>
+         
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td><a href="Admin/TestimonialAdmin/Delete/@item.TestimonialId" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+                <td><a href="Admin/TestimonialAdmin/Update/@item.TestimonialId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+                <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+<a href="/Admin/TestimonialAdmin/Add/" class="btn btn-info">Yeni Personel Girişi</a>

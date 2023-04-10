@@ -1,0 +1,32 @@
+﻿@model IEnumerable<StaffViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<h2>Personeller</h2>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Ad</th>
+            <th scope="col">Unvan</th>
+            <th scope="col">Sil</th>
+            <th scope="col">Güncelle</th>
+            <th scope="col">Detaylar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Title</td>
+                <td><a href="/Staff/Delete/@item.StaffId" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+                <td><a href="/Staff/Update/@item.StaffId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+                <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+            </tr>
+        }
+      
+       
+    </tbody>
+</table>
+<a href="/Staff/Add/" class="btn btn-info">Yeni Personel Girişi</a>

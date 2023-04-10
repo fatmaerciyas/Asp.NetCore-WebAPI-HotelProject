@@ -1,0 +1,47 @@
+﻿@model List<NetflixMovieViewModel.D>
+
+@{
+    Layout = null;
+}
+<a href="~/lib/bootstrap/dist/css/bootstrap.css.map">~/lib/bootstrap/dist/css/bootstrap.css.map</a>
+<a href="~/lib/bootstrap/dist/css/bootstrap.min.css.map">~/lib/bootstrap/dist/css/bootstrap.min.css.map</a>
+<a href="~/lib/bootstrap/dist/css/bootstrap.rtl.css.map">~/lib/bootstrap/dist/css/bootstrap.rtl.css.map</a>
+<a href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">~/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map</a>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Yıl</th>
+                <th scope="col">Puan</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.rank</td>
+                <td>@item.yr</td>
+                <td>@item.s</td>
+                <td>@item.q</td>
+            </tr>
+            }
+          
+          
+        </tbody>
+    </table>
+</body>
+</html>

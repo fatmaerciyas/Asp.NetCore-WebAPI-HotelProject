@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ResultGuestDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Ad</th>
+            <th scope="col">Soyad</th>
+            <th scope="col">Şehir</th>
+            <th scope="col">Sil</th>
+            <th scope="col">Güncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Surname</td>
+                <td>@item.City</td>
+                <td><a href="/Guest/Delete/@item.GuestId" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+                <td><a href="/Guest/Update/@item.GuestId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+<a href="/Guest/Add" class="btn btn-info">Yeni Personel Girişi</a>
