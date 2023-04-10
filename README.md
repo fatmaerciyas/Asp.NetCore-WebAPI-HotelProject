@@ -1,7 +1,5 @@
 # Asp.NetCore-WebAPI-HotelProject
 
-
-# Asp.NetCore-WebAPI-HotelProject
 I have worked with Asp.Net Core Mvc architecture in my previous projects. In this project, I used Web API technology as well as MVC architecture.
 ##API:
 API integration refers to several applications (two or more) that are interconnected via their APIs to exchange data and perform a common function, thereby enabling interaction between applications.
@@ -10,9 +8,8 @@ API integration refers to several applications (two or more) that are interconne
 The appearance of the methods available on the API side is as follows;
 
 ![swagger1](https://user-images.githubusercontent.com/55760365/230837036-7a40d789-bea5-4b84-beec-b5990e6fdd60.png)
-![swagger2](https://user-images.githubusercontent.com/55760365/230837039-e47a8ca3-2919-424f-865f-f6183ab2211d.png)
 
-And I wrote these methods for each schema
+And I wrote these methods for each schema.
 Schemes;
 
 ![schemas](https://user-images.githubusercontent.com/55760365/230837046-ecd7dcaf-976a-45ba-934e-21f04ba1701b.png)
